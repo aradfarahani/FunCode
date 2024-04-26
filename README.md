@@ -1,1 +1,1 @@
-# QRcode
+# Fun Code
