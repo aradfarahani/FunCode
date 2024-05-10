@@ -1,0 +1,37 @@
+svg#topographic 
+  width 100vw
+  
+  path
+    fill #1c1c1c
+    stroke-width 1
+    stroke-miterlimit 0
+    stroke lighten(#232323, 10%)
+    stroke-dasharray 500
+    stroke-dashoffset 1000
+    animation dash 10s linear alternate infinite
+    
+    
+svg#logo
+  width 120px
+  position absolute
+  top 50%
+  left 50%
+  z-index 10
+  margin-left -60px
+  margin-top -80px
+  
+  path
+    fill #f2f2f2
+    
+@keyframes dash
+  from
+    stroke-dashoffset 1000
+  to
+    stroke-dashoffset 0
+    
+    
+body
+  background #232323
+  overflow hidden
+  height 100vh
+  width 100vw
