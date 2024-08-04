@@ -1,2 +1,2 @@
 # Fun Code
-yolo
+yolo MAKE BETTERtttt
